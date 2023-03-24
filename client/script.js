@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch('https://myegbon-server.onrender.com', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
